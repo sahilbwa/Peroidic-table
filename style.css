@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    
+    
+}
+p{
+    text-align: center;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.yellowgreen{
+    background-color: yellowgreen;
+}
+.blue{
+    background-color: rgb(67, 130, 192);
+}
+.green{
+    background-color: rgb(61, 159, 61);
+}
+.bluee{
+    background-color: rgb(102, 228, 242);
+}
+.purple{
+    background-color: rgb(153, 54, 245);
+}
+.voilet{
+    background-color: rgb(255, 0, 255);
+}
+.voilet1{
+    background-color: rgb(213, 22, 140);
+}
+.container{
+    display: grid;
+    
+    grid-template-columns: repeat(18,100px);
+    grid-template-rows: repeat(8,100px );
+    justify-content: center;
+   
+    
+}
+.box{
+    border: 1px solid white;
+    
+}
+.box2{
+    border: 2px solid white;
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-column: span(16);
+
+}.box6{
+    grid-column-start: 3;
+    grid-column-end:13 ;
+    grid-column: span(10);
+    border: 2px solid white;
+
+}.box15{
+    grid-column-start: 3;
+    grid-column-end:13 ;
+    grid-column: span(10);
+    border: 2px solid white;
+}
+.container2{
+    display: grid;
+   
+    grid-template-columns:170px repeat(15,100px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(10,120px);
+    grid-template-rows: repeat(1,120px);
+    justify-content: center;
+   
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+.box12{
+    border: 2px solid white;
+}
+.box13{
+    border: 2px solid white ;
+    
+}
